@@ -1,0 +1,8 @@
+train: /images/train  # change this to the actual location of training dataset
+val: /images/vali  # change this to the actual location of vlidation dataset
+
+# number of classes
+nc: 4
+
+# class names
+names: [ 'liquid','liquidsolid','solid','solidliquid']
